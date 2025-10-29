@@ -5,7 +5,7 @@ function Person(name, age) {
 
 // Regular function, not arrow function
 Person.prototype.greet = function() {
-  console.log(`Hello, my name is ${this._name}, I am ${this._age} years old`);
+  console.log(`Hello, my name is ${this._name} and I am ${this._age} years old.`);
 };
 
 function Employee(name, age, jobTitle) {
